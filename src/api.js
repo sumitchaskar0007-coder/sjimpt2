@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || ' https://api.sjimt.in/api',
+  baseURL: import.meta.env.VITE_API_URL || '  https://api.jgefs.org/api',
   timeout: 30000,
 });
 
