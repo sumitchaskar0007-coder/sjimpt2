@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://mca-drjp.onrender.com/api',
+  baseURL: import.meta.env.VITE_API_URL || ' https://api.sjimt.in/api',
   timeout: 30000,
 });
 
