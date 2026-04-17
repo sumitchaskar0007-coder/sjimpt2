@@ -61,21 +61,24 @@ export default function Header() {
         { to: "/udan/8", label: "Udan 8" },
       ],
     },
-    {
-      label: "More",
-      sub: [
-        { to: "/facilities", label: "Facilities" },
-       // { to: "/library", label: "Library" },
-        { to: "/gallery", label: "Gallery" },
-        { to: "/careers", label: "Career" },
-        { to: "/notices", label: "Notices" },
-        { to: "/blogs", label: "Blogs" },
-        { to: "/announcement", label: "Announcements" }, // Moved to More section
-        { to: "/assets/pdf/24_7.pdf", label: "24*7 Women's Helpline" },
-         { to: "/assets/pdf/Result.pdf", label: "Result" },
-        { to: "https://docs.google.com/forms/d/e/1FAIpQLSdxQ73XMjb_zM0mMvZn_u8cc0UOXReDicAII5XGAE9joI5JRA/viewform?usp=dialog", label: "Feedback Form" } // Added to More section
-      ],
-    },
+   {
+  label: "More",
+  sub: [
+    { to: "/facilities", label: "Facilities" },
+   // { to: "/library", label: "Library" },
+    { to: "/gallery", label: "Gallery" },
+    { to: "/careers", label: "Career" },
+    { to: "/notices", label: "Notices" },
+    { to: "/blogs", label: "Blogs" },
+    { to: "/announcement", label: "Announcements" },
+    { to: "/assets/pdf/24_7.pdf", label: "24*7 Women's Helpline" },
+    { to: "/result", label: "Result" },
+
+    // New PDFs added here 👇
+
+    { to: "https://docs.google.com/forms/d/e/1FAIpQLSdxQ73XMjb_zM0mMvZn_u8cc0UOXReDicAII5XGAE9joI5JRA/viewform?usp=dialog", label: "Feedback Form" }
+  ],
+},
     { to: "/contact", label: "Contact" },
   ];
 

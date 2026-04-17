@@ -27,6 +27,7 @@ import UdanBook from "./pages/UdanBook";
 import Grievance from './pages/Grievance.jsx';
 import Feedback from './pages/Feedback.jsx';
 import Notice from './pages/Notice.jsx'; // Added missing import
+import Result from './pages/Result.jsx';
 import BlogList from './pages/Blog';
 import { BlogPost } from './pages/Blog';
 // Admin pages
@@ -73,6 +74,7 @@ export default function App() {
             <Route path="/udan/:id" element={<UdanBook />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/application" element={<Application />} />
+            <Route path="/result" element={<Result />} />
 
             {/* ---------------- ADMIN ROUTES ---------------- */}
             <Route path="/admin/login" element={<AdminLogin />} />
