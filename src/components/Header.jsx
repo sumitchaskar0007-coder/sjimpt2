@@ -72,7 +72,7 @@ export default function Header() {
     { to: "/blogs", label: "Blogs" },
     { to: "/announcement", label: "Announcements" },
     { to: "/assets/pdf/24_7.pdf", label: "24*7 Women's Helpline" },
-    { to: "/result", label: "Result" },
+    { to: "/assets/pdf/topper2026.pdf", label: "Result" },
 
     // New PDFs added here 👇
 
