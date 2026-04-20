@@ -739,12 +739,12 @@ export default function HeroSection() {
             {/* Testimonial 1 */}
             <div className="bg-white p-6 rounded-xl shadow">
               <p className="text-gray-600 italic leading-relaxed">
-                "The MCA/MBA curriculum, hands-on projects, and guidance from experienced
+                "The MCA curriculum, hands-on projects, and guidance from experienced
                 faculty helped me build strong technical skills and confidence to work
                 in the IT industry."
               </p>
               <p className="mt-3 font-semibold text-gray-800">
-                — MCA/MBA Student
+                — Ashok Thombre, Student 
               </p>
             </div>
 
