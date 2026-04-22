@@ -756,7 +756,7 @@ export default function HeroSection() {
                 a key role in shaping my professional career."
               </p>
               <p className="mt-3 font-semibold text-gray-800">
-                — MCA/MBA Alumni
+                — Sujal Hinge, Student
               </p>
             </div>
 
