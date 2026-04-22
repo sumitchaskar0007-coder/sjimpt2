@@ -127,7 +127,7 @@ export default function Header() {
               "Education for Strength, Intellect & Wisdom"
             </p>
             <p className="hidden md:block text-xs font-semibold text-gray-700">
-              Late Uddhavrao Tulashiram Jadhavar Foundation's
+              Late Uddhavrao Tulshiram Jadhavar Foundation's
             </p>
             <h1 className="text-xs sm:text-sm md:text-xl font-bold text-blue-900 leading-tight">
               Dr. Sudhakarrao Jadhavar Institute of Management and Technology
